@@ -11,20 +11,21 @@ body {
   flex-direction: column;
   gap: 20px;
 }
-  
+
+tr {
+  border: 1px solid black;
+}
+
 td {
   border: 1px solid black;
   width: 400px;
   text-align: center;
 }
+
 th {
   border: 1px solid black;
   text-align: center;
   width: 400px;
-}
-
-#selectStorage {
-  
 }
 
 #subBtn {
