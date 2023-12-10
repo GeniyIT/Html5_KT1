@@ -1,0 +1,43 @@
+body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+  
+.block {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+  
+td {
+  border: 1px solid black;
+  width: 400px;
+  text-align: center;
+}
+th {
+  border: 1px solid black;
+  text-align: center;
+  width: 400px;
+}
+
+#selectStorage {
+  
+}
+
+#subBtn {
+  padding: 10px;
+  background-color: green;
+  border: none;
+  color: white;
+  font-weight: 500;
+}
+#clear {
+  padding: 10px;
+  background-color: red;
+  border: none;
+  color: white;
+  font-weight: 500;
+}
